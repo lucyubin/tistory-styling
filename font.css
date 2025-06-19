@@ -1,12 +1,14 @@
 /* Web Font Load */
+  /* wanted sans */
 @import url('https://fastly.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+  /* pretendard */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 /* Type Selector Reset */
 body {
   -webkit-text-size-adjust: 100%;
   font-weight: 400;
-  font-family: "Noto Sans KR", "Pretendard", sans-serif !important;*/
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 1em;
   line-height: 1.25;
   color: #555;
@@ -16,19 +18,39 @@ body {
 .entry-content h2 {
   clear: both;
   margin: 29px 0 22px;
-  font-family: "Noto Sans KR" !important; /* 제목 1 */
+  font-family: "Pretendard Extrabold" !important; /* 제목 1 */
   font-size: 1.5em;
   line-height: 1.5;
   color: #000;
-  font-weight: 700;
 }
 
 .entry-content h3 {
   clear: both;
   margin: 29px 0 22px;
-  font-family: "Noto Sans KR" !important; /* 제목 2 */
+  font-family: "Pretendard Bold" !important; /* 제목 2 */
   font-size: 1.3125em;
   line-height: 1.5;
   color: #000;
-  font-weight: 600;
+}
+
+.entry-content h4 {
+  clear: both;
+  margin: 29px 0 22px;
+  font-weight: 400;
+  font-family: "Pretendard" !important; /* 제목 3 */
+  font-size: 1.125em;
+  line-height: 1.5;
+  color: #000;
+}
+
+.entry-content p {
+  font-family: "Pretendard" !important; /* 본문 볼드 2 */
+  word-break: break-word;
+}
+
+.entry-content ul {
+  font-family: "Pretendard" !important; /* 본문 2 */
+  list-style: disc;
+  margin-bottom: 22px;
+  padding: revert;
 }
