@@ -1,0 +1,34 @@
+/* Web Font Load */
+@import url('https://fastly.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+
+/* Type Selector Reset */
+body {
+  -webkit-text-size-adjust: 100%;
+  font-weight: 400;
+  font-family: "Noto Sans KR", "Pretendard", sans-serif !important;*/
+  font-size: 1em;
+  line-height: 1.25;
+  color: #555;
+}
+
+/* Entry Content */
+.entry-content h2 {
+  clear: both;
+  margin: 29px 0 22px;
+  font-family: "Noto Sans KR" !important; /* 제목 1 */
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 700;
+}
+
+.entry-content h3 {
+  clear: both;
+  margin: 29px 0 22px;
+  font-family: "Noto Sans KR" !important; /* 제목 2 */
+  font-size: 1.3125em;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 600;
+}
