@@ -24,6 +24,21 @@ html, body {
   font-size: 100%;
 }
 
+/* 스크롤바 */
+::-webkit-scrollbar {
+  width: 10px; /* 스크롤바 너비 */
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 5px; /* 스크롤바 길이*/
+  background: #DDA1A1;
+  border-radius: 5px;
+}
+
 /* 본문 서식 */
 .entry-content h2 {
   clear: both;
