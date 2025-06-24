@@ -1,0 +1,14 @@
+<body>
+
+<script>
+  $(document).ready(function() {
+    var heartTag = '<div class="like_heart"><span class="heart_tooltip">이 글이 도움이 되었다면 ❤️ 공감을 눌러주세요 :)</span></div>';
+    $(heartTag).insertBefore($('.container_postbtn').children().eq(0));
+  });
+</script>
+<style>
+.heart_tooltip {position:absolute;left:0;top:-40px;background:#DDA1A1;color:#fff;font-size:10pt;padding:8px 12px;border-radius:5px;box-shadow:3px 3px 10px rgba(0,0,0,0.1);}
+.heart_tooltip::after {position:absolute;left:15px;bottom:-7px;width:0;height:0;border-top:7px solid #DDA1A1; border-bottom:7px solid none;border-right: 7px solid transparent;border-left: 7px solid  transparent;content:" ";}
+</style>
+  
+</body> 
